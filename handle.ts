@@ -1,15 +1,15 @@
-let childName = 'Tran Toan'
-let age = 24
-let isMarried = true
+// arrays
 
-// childName = 10
-childName = 'Sky Albert'
+let languages = ['javascript', 'java', 'php', 'c']
 
-// age = 'Tran Toan'
+// languages.push(1)
+languages.push('python')
 
-const randomValue = (param: number) => {
-    return param * 20
-}
+console.log(languages)
 
-console.log(randomValue(1))
+let agesTeam = [1,12, 14, 15]
 
+// agesTeam.push('python')
+agesTeam.push(21)
+
+console.log(agesTeam)
