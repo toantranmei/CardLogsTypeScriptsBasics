@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Logs | TypeScript Basics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="title">Card Logs - RHP Team</h1>
+        <section class="main">
+          <div class="form">
+            <div class="card">
+              <div class="field">
+                <label for="frontText"> Front: </label>
+                <input id="frontText" class="form-control" type="text" />
+              </div>
+              <div class="field">
+                <label for="backText"> Back: </label>
+                <input id="backText" class="form-control" type="text" />
+              </div>
+              <div class="field">
+                <label for="type"> Type: </label>
+                <select id="type" class="form-control custom-select">
+                  <option value="flash">Flash Card</option>
+                  <option value="normal">Normal Card</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="score"> Score: </label>
+                <input id="score" class="form-control" type="number" />
+              </div>
+              <div class="field">
+                <button class="btn btn-block btn-success">Add</button>
+              </div>
+            </div>
+          </div>
+          <div class="list">
+            <h3>Lists Of Card:</h3>
+            <ul class="items">
+              <li class="item">
+                <div class="card">
+                  <h3>Flash Card</h3>
+                  <p>Front: Example - Back: Example | Score: 100</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
