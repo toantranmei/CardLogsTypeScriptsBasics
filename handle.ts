@@ -1,15 +1,40 @@
+let cardName: string|number
+let age: number
+let isHuman: boolean
+
+// cardName = 12
+age = 12
+
 // arrays
 
-let languages = ['javascript', 'java', 'php', 'c']
+let languages: string[]
 
-// languages.push(1)
-languages.push('python')
+languages = ['java', 'js']
 
-console.log(languages)
+let anyArrays: (string|number)[] = ['java']
 
-let agesTeam = [1,12, 14, 15]
+// anyArrays = [1, 'java', true]
 
-// agesTeam.push('python')
-agesTeam.push(21)
+anyArrays.push(12)
+// anyArrays.push(true)
 
-console.log(agesTeam)
+// objects
+
+let human: object
+
+// human = 1
+human = {
+    name: 'Tran Toan'
+}
+
+let animal: {
+    name: string|number,
+    foot: number,
+    isTrue: boolean|string
+}
+
+animal.name = 12
+animal.isTrue = 'pending'
+
+
+
